@@ -281,22 +281,27 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
+
+		/*int flag=0,i;
 		if(student==null)
         {
             throw new IllegalArgumentException();
         }
         else
         {
-		int flag=0;
-		for(int i=0;i<=students.length-1;i++)
-        {
-            if(students[i].equals(student))
+
+            for( i=0;i<=students.length-1;i++)
             {
-               return students[i+1];
+                if(students[i].equals(student))
+                {
+break;
+                }
             }
         }
         if(flag==0)
             throw new IllegalArgumentException("Student not exist");
-	}
+            else
+                                  return students[i+1];*/
+            return null;
 	}
 }
