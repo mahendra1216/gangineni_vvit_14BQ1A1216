@@ -281,7 +281,8 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
-		int flag=0,i;
+
+		/*int flag=0,i;
 		if(student==null)
         {
             throw new IllegalArgumentException();
@@ -300,7 +301,7 @@ break;
         if(flag==0)
             throw new IllegalArgumentException("Student not exist");
             else
-                                  return students[i+1];
-
+                                  return students[i+1];*/
+            return null;
 	}
 }
